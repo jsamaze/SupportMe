@@ -1,5 +1,22 @@
 # SupportMe
 
+---
+Joshua : This project is my first software project.
+## Learning point for Joshua 
+- Learned about the MVC model and REST API
+      MVC helped to organise our code and encapsulate logic, making it easier to collaborate and work on our respective parts
+- Learned how to manage sessions using JSON WEB Token
+      Session is still stored in the databse. This allows for a token access to be revoked if neccessary.
+- Learned about how "router" work in context of REST API
+      Learned how backend is commonly build upon HTTP protocol and how to design a simple CRUD API for campaigns
+
+## Things to improve in the future
+- If we were to write another API in PHP, we would use a different router, as Klien support of exception handling is lacking especially for SQL erors
+- Image upload feature can be improved as currently the picture needs to be converted to a base 64 string before transmitted
+
+
+---
+
 Our implementation of a business logic similar to change.org using vanilla PHP, REST api design and content learned during "Operating System and Networking Module" in SMU. 
 
 - [SupportMe](#supportme)
